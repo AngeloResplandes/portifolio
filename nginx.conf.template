@@ -1,5 +1,5 @@
 server {
-  listen 80;
+  listen ${PORT};
   server_name localhost;
 
   root /usr/share/nginx/html;
@@ -11,6 +11,8 @@ server {
   }
 
   location ~* \.(?:css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
+    try_files $uri =404; 
+    
     expires 1y;
     add_header Cache-Control "public";
   }
