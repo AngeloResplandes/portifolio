@@ -8,7 +8,7 @@ const url = {
 
 export const Header = () => {
     return (
-        <nav className="flex items-center gap-4">
+        <nav className="fixed top-0 z-50 w-full flex justify-center gap-4">
             <a
                 href={url.github}
                 target="_blank"
