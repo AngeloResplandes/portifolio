@@ -26,20 +26,40 @@
     color: #ffffff;
   }
 
+  10% {
+    color: #A78BFA;
+  }
+
   20% {
     color: #665D91;
   }
 
+  30% {
+    color: #EC4899;
+  }
+
   40% {
-    color: #34D399;
+    color: #F43F5E;
+  }
+
+  50% {
+    color: #F59E0B;
   }
 
   60% {
-    color: #FCD34D;
+    color: #34D399;
+  }
+
+  70% {
+    color: #22D3EE;
   }
 
   80% {
     color: #60A5FA;
+  }
+
+  90% {
+    color: #818CF8;
   }
 
   100% {
@@ -48,7 +68,7 @@
 }
 
 .animate-color-cycle {
-  animation: color-cycle 6s linear infinite;
+  animation: color-cycle 10s linear infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
