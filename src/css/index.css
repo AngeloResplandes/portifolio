@@ -19,3 +19,40 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+@keyframes color-cycle {
+  0% {
+    color: #ffffff;
+  }
+
+  20% {
+    color: #665D91;
+  }
+
+  40% {
+    color: #34D399;
+  }
+
+  60% {
+    color: #FCD34D;
+  }
+
+  80% {
+    color: #60A5FA;
+  }
+
+  100% {
+    color: #ffffff;
+  }
+}
+
+.animate-color-cycle {
+  animation: color-cycle 6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-color-cycle {
+    animation: none;
+  }
+}
