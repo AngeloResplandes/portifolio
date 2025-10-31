@@ -13,7 +13,10 @@ export const Main = () => {
                     </h1>
                 </div>
                 <div className="mb-10 max-w-80 sm:max-w-[550px]">
-                    <p>Um Desenvolvedor de Software apaixonado por tecnologia. Meu propósito é criar soluções e inovar com novas ideias.</p>
+                    <p>
+                        Um Desenvolvedor de Software apaixonado por tecnologia.
+                        Meu propósito é criar soluções e inovar com novas ideias.
+                    </p>
                 </div>
                 <a
                     href=""
