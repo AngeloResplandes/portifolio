@@ -1,8 +1,9 @@
 import { TiMessages } from "react-icons/ti";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export const Main = () => {
     return (
-        <div className="h-[90vh] sm:h-screen w-full flex justify-center items-center">
+        <div className="h-[90vh] sm:h-screen w-full flex flex-col justify-center items-center relative">
             <div className="h-72 flex flex-col justify-evenly items-center text-center text-xl">
                 <div>
                     <p className="mb-3">Olá! Sou o</p>
@@ -14,8 +15,11 @@ export const Main = () => {
                 </div>
                 <div className="mb-10 max-w-80 sm:max-w-[550px]">
                     <p>
-                        Um Desenvolvedor de Software apaixonado por tecnologia.
-                        Meu propósito é criar soluções e inovar com novas ideias.
+                        Um <span className="font-bold">
+                            Desenvolvedor de Software
+                        </span> apaixonado por tecnologia. Meu propósito é
+                        criar <span className="font-bold">soluções</span> e
+                        <span className="font-bold"> inovar</span> com novas ideias.
                     </p>
                 </div>
                 <a
@@ -30,6 +34,9 @@ export const Main = () => {
                     <TiMessages className="h-5 w-5 mr-3" />
                     <span className="font-medium">Vamos conversar!</span>
                 </a>
+            </div>
+            <div className="absolute bottom-15 left-1/2 -translate-x-1/2">
+                <MdKeyboardDoubleArrowDown className="h-10 w-10" aria-hidden />
             </div>
         </div>
     );

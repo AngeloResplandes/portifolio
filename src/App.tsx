@@ -1,5 +1,6 @@
 import { AboutMe } from "./components/AboutMe";
 import { Header } from "./components/Header";
+import { Experience } from "./components/Experience";
 import { Main } from "./components/Main";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Main />
       <AboutMe />
+      <Experience />
     </div >
   );
 }
