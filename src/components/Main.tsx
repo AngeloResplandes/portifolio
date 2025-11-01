@@ -25,8 +25,8 @@ export const Main = () => {
                     </p>
                 </div>
                 <a
-                    href=""
-                    target=""
+                    href="mailto:angeloresplandes1@gmail.com"
+                    target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Abrir Formulário"
                     className={`bg-white text-[#665D91] flex items-center 

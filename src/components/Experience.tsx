@@ -1,27 +1,5 @@
 import { useState } from "react";
-import type { ExperienceType } from "../types/experience";
-
-const EXPERIENCES: ExperienceType[] = [
-    {
-        company: "Exception Júnior",
-        role: "Desenvolvedor Full Stack",
-        period: "AGO 2025 - o momento",
-        resume: [
-            `Atualmente lidero a área de projetos, sendo responsável pela 
-            gestão, acompanhamento e entrega de soluções web desenvolvidas 
-            pela equipe. Coordeno times multidisciplinares, garantindo a 
-            aplicação de metodologias ágeis e o alinhamento com as 
-            necessidades dos clientes.`,
-            `Entre minhas atividades estão: planejamento estratégico de 
-            projetos, definição de prazos, acompanhamento de indicadores de 
-            desempenho, capacitação de membros da equipe e mediação da 
-            comunicação com stakeholders.`,
-            `Essa experiência tem ampliado minha visão sobre liderança, 
-            gestão de pessoas e processos, fortalecendo minha atuação tanto 
-            no aspecto técnico quanto no organizacional.`
-        ]
-    },
-];
+import { EXPERIENCES } from "../services/experiences";
 
 export const Experience = () => {
     const [active, setActive] = useState<number>(0);
@@ -37,9 +15,11 @@ export const Experience = () => {
                 </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-6">
-                <nav aria-label="Empresas"
-                    className="md:border-l md:border-white/10">
+            <div className={`grid grid-cols-1 md:grid-cols-[220px_1fr] gap-6`}>
+                <nav
+                    aria-label="Empresas"
+                    className="md:border-l md:border-white/10 self-start h-fit"
+                >
                     <ul className="flex flex-col gap-2 md:gap-0 overflow-x-auto md:overflow-visible">
                         {EXPERIENCES.map((exp, idx) => (
                             <li key={exp.company} className="min-w-fit">
@@ -82,7 +62,7 @@ export const Experience = () => {
                     {current.resume.map((text, i) => (
                         <li key={i} className="leading-relaxed text-lg flex">
                             <span className="text-[#AEA2FE] mr-3">▸</span>
-                            <span>{text}</span>
+                            <span className="mb-5">{text}</span>
                         </li>
                     ))}
                 </div>
