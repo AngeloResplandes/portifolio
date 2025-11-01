@@ -3,17 +3,19 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export const Main = () => {
     return (
-        <div className="h-[90vh] sm:h-screen w-full flex flex-col justify-center items-center relative">
-            <div className="h-72 flex flex-col justify-evenly items-center text-center text-xl">
+        <main className={`h-[90vh] sm:h-screen w-full flex flex-col 
+        justify-center items-center relative px-4`}>
+            <div className={`min-h-72 flex flex-col justify-evenly items-center 
+                text-center text-lg sm:text-xl`}>
                 <div>
                     <p className="mb-3">Olá! Sou o</p>
-                    <h1 className="text-5xl font-medium mb-5">
+                    <h1 className="text-4xl sm:text-5xl font-medium mb-5">
                         <span className="animate-color-cycle">
                             Ângelo Resplandes
                         </span>
                     </h1>
                 </div>
-                <div className="mb-10 max-w-80 sm:max-w-[550px]">
+                <div className="mb-10 max-w-[20rem] sm:max-w-[550px]">
                     <p>
                         Um <span className="font-bold">
                             Desenvolvedor de Software
@@ -35,9 +37,9 @@ export const Main = () => {
                     <span className="font-medium">Vamos conversar!</span>
                 </a>
             </div>
-            <div className="absolute bottom-15 left-1/2 -translate-x-1/2">
+            <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2">
                 <MdKeyboardDoubleArrowDown className="h-10 w-10" aria-hidden />
             </div>
-        </div>
+        </main>
     );
 }

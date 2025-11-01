@@ -5,9 +5,10 @@ export const AboutMe = () => {
     }
 
     return (
-        <div className="h-screen w-full flex flex-col sm:flex-row justify-center items-center">
-            <div className="max-w-80 sm:max-w-[450px] mr-20">
-                <h1 className="text-3xl font-medium mb-5">Sobre mim:</h1>
+        <section className={`min-h-screen w-full flex flex-col sm:flex-row 
+        justify-center items-center gap-8 sm:gap-12 px-4 mb-10 sm:m-0`}>
+            <div className="max-w-[20rem] sm:max-w-[450px] sm:mr-20">
+                <h1 className="text-3xl font-medium mb-5">Sobre mim</h1>
                 <p className="text-lg mb-5">
                     🎓 Sou estudante de <span className="font-bold text-[#AEA2FE]">
                         Sistemas de Informação
@@ -25,10 +26,10 @@ export const AboutMe = () => {
                     <span className="font-bold text-[#AEA2FE]"> Engenheiro de Software</span>.
                 </p>
             </div>
-            <div>
+            <div className="flex justify-center">
                 <img src={aboutMe.url} alt={aboutMe.name}
-                    className="w-2xs object-cover rounded-lg" />
+                    className="w-48 h-48 sm:w-72 sm:h-72 object-cover rounded-lg" />
             </div>
-        </div>
+        </section>
     );
 }
