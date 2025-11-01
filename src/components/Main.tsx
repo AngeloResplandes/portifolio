@@ -37,7 +37,7 @@ export const Main = () => {
                     <span className="font-medium">Vamos conversar!</span>
                 </a>
             </div>
-            <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2">
+            <div className="absolute bottom-12 sm:bottom-10 left-1/2 -translate-x-1/2 ">
                 <MdKeyboardDoubleArrowDown className="h-10 w-10" aria-hidden />
             </div>
         </main>

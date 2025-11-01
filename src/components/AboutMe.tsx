@@ -6,7 +6,7 @@ export const AboutMe = () => {
 
     return (
         <section className={`min-h-screen w-full flex flex-col sm:flex-row 
-        justify-center items-center gap-8 sm:gap-12 px-4 mb-10 sm:m-0`}>
+        justify-center items-center gap-8 sm:gap-12 px-4 mt-14 sm:mt-0 mb-10 sm:mb-0`}>
             <div className="max-w-[20rem] sm:max-w-[450px] sm:mr-20">
                 <h1 className="text-3xl font-medium mb-5">Sobre mim</h1>
                 <p className="text-lg mb-5">
