@@ -2,6 +2,13 @@ import { TiMessages } from "react-icons/ti";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export const Main = () => {
+    const handleScrollToAboutMe = () => {
+        const el = document.getElementById("about-me");
+        if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
     return (
         <main className={`h-[90vh] sm:h-screen w-full flex flex-col 
         justify-center items-center relative px-4`}>
@@ -38,7 +45,14 @@ export const Main = () => {
                 </a>
             </div>
             <div className="absolute bottom-12 sm:bottom-10 left-1/2 -translate-x-1/2 ">
-                <MdKeyboardDoubleArrowDown className="h-10 w-10" aria-hidden />
+                <button
+                    type="button"
+                    onClick={handleScrollToAboutMe}
+                    aria-label="Ir para seção Sobre mim"
+                    className="hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#AEA2FE] rounded-full cursor-pointer"
+                >
+                    <MdKeyboardDoubleArrowDown className="h-10 w-10" aria-hidden />
+                </button>
             </div>
         </main>
     );

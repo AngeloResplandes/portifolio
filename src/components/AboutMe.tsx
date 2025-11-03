@@ -5,15 +5,15 @@ export const AboutMe = () => {
     }
 
     return (
-        <section className={`min-h-screen w-full flex flex-col sm:flex-row 
-        justify-center items-center gap-8 sm:gap-12 px-4 mt-14 sm:mt-0 mb-10 sm:mb-0`}>
-            <div className="max-w-[20rem] sm:max-w-[450px] sm:mr-20">
+        <section id="about-me" className={`min-h-screen w-full flex flex-col sm:flex-row 
+        justify-center items-center gap-8 sm:gap-12 px-4 mt-14 sm:mt-0 mb-10 sm:mb-0 scroll-mt-14 sm:scroll-mt-0`}>
+            <div className="max-w-[20rem] sm:max-w-[500px] sm:mr-20">
                 <h1 className="text-3xl font-medium mb-5">Sobre mim</h1>
                 <p className="text-lg mb-5">
                     🎓 Sou estudante de <span className="font-bold text-[#AEA2FE]">
                         Sistemas de Informação
-                    </span> na UNIFESSPA, onde iniciei minha jornada em
-                    tecnologia em 2023 como estagiário em telecomunicações.
+                    </span> na UNIFESSPA, iniciei minha carreira na área da
+                    tecnologia em 2023 como estagiário em uma empresa de telecomunicações.
                 </p>
                 <p className="text-lg mb-5">
                     🖥️ Atualmente, atuo como bolsista no PET-Saúde Digital e
