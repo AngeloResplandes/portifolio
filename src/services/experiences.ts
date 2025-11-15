@@ -6,28 +6,30 @@ export const EXPERIENCES: ExperienceType[] = [
         role: "Desenvolvimento de Software",
         period: "ago 2025 - o momento",
         resume: [
-            `Atualmente temos o objetivo de encontrar Proteção de Dados e 
-            Soberania Digital através de aplicações mobile e instruções para
-            os usuários do SUS`
+            `Atuo no desenvolvimento de aplicativo mobile para o Ministério da 
+            Saúde voltado ao pré-natal, utilizando TypeScript e Node.js.`,
+            `Responsável pela implementação de sistema de agendamento online, 
+            registro digital de consultas, lembretes automáticos de exames e 
+            mapa interativo para localização de Agentes Comunitários de Saúde 
+            (ACS).`,
+            `Colaboro com equipe multidisciplinar em levantamento de 
+            requisitos e validação de funcionalidades com stakeholders 
+            do projeto.`
         ]
     },
     {
         company: "Exception Júnior",
-        role: "Desenvolvedor Full Stack",
+        role: "Diretoria de Projetos",
         period: "ago 2024 - o momento",
         resume: [
-            `Atualmente lidero a área de projetos, sendo responsável pela 
-            gestão, acompanhamento e entrega de soluções web desenvolvidas 
-            pela equipe. Coordeno times multidisciplinares, garantindo a 
-            aplicação de metodologias ágeis e o alinhamento com as 
-            necessidades dos clientes.`,
-            `Entre minhas atividades estão: planejamento estratégico de 
-            projetos, definição de prazos, acompanhamento de indicadores de 
-            desempenho, capacitação de membros da equipe e mediação da 
-            comunicação com stakeholders.`,
-            `Essa experiência tem ampliado minha visão sobre liderança, 
-            gestão de pessoas e processos, fortalecendo minha atuação tanto 
-            no aspecto técnico quanto no organizacional.`
+            `Lidero a área de projetos de desenvolvimento web, coordenando 
+            equipe multidisciplinar em projetos comerciais utilizando 
+            metodologias ágeis.`,
+            `Atuo no desenvolvimento de funcionalidades e manutenção 
+            evolutiva/corretiva de sistemas, garantindo entregas de 
+            qualidade aos clientes.`,
+            `Realizo planejamento de projetos, levantamento de requisitos, 
+            documentação de processos e comunicação com stakeholders.`
         ]
     },
     {
@@ -55,7 +57,7 @@ export const EXPERIENCES: ExperienceType[] = [
             `Atuei prestando suporte técnico a clientes, realizando atendimento 
             de primeiro e segundo nível para resolução de problemas relacionados 
             à conectividade, configuração de roteadores e manutenção preventiva. `,
-            ` Fui responsável por orientar usuários em boas práticas de 
+            `Fui responsável por orientar usuários em boas práticas de 
             utilização da rede, registrar chamados em sistema interno e 
             encaminhar demandas complexas para as equipes responsáveis.`,
             `Durante esse período, desenvolvi habilidades em atendimento ao 
