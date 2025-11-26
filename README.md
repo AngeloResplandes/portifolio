@@ -23,7 +23,7 @@ npm run preview   # Execute o projeto
 Ou execute com o [Docker](https://www.docker.com/):
 ```bash
 docker build -t portifolio:local .                            # Build da imagem
-docker run --rm -e PORT=8080 -p 8080:8080 portifolio:local    # Rodar a imagem (expondo a porta 8080)
+docker run --rm -e PORT=8080 -p 8080:8080 portifolio:local    # Rodar a imagem
 ```
 
 * Depois, acesse `http://localhost:8080`
