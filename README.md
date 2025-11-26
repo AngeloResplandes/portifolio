@@ -14,24 +14,16 @@ minhas habilidades, objetivos e trajetória como desenvolvedor.
 
 Execute o projeto com o npm (é necessário ter o [Node.js 22v](https://nodejs.org/) instalado):
 ```bash
-# Instale as dependências
-npm install
-
-# Faça o build do projeto
-npm run build
-
-# Execute o projeto
-npm run preview
+npm install       # Instale as dependências
+npm run build     # Faça o build do projeto
+npm run preview   # Execute o projeto
 ```
 * Depois, acesse `http://localhost:4173/`
 
 Ou execute com o [Docker](https://www.docker.com/):
 ```bash
-# Build da imagem
-docker build -t portifolio:local .
-
-# Rodar a imagem (expondo a porta 8080)
-docker run --rm -e PORT=8080 -p 8080:8080 portifolio:local
+docker build -t portifolio:local .                            # Build da imagem
+docker run --rm -e PORT=8080 -p 8080:8080 portifolio:local    # Rodar a imagem (expondo a porta 8080)
 ```
 
 * Depois, acesse `http://localhost:8080`
